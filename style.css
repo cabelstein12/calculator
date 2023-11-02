@@ -26,9 +26,11 @@ body {
     height: 300px;
     width: 225px;
     border: solid 2px rgba(52, 52, 52, 0.653);
-    /* background-color: rgba(212, 212, 212, 0.259); */
+    /* background: rgb(62,62,62); */
+    background: linear-gradient(120deg, rgba(90,88,88,1) 0%, rgba(68,68,68,1) 74%, rgba(48,46,46,1) 100%);
     border-radius: 10px;
     padding: 10px 5px;
+    box-shadow: 10px 10px 20px #b1aaaa;
 }
 
 .display{
@@ -41,7 +43,7 @@ body {
     height: 48px;
     margin: 5px;
     padding-left: 8px;
-    background-color: rgb(250, 235, 217);
+    background-color: rgb(251, 244, 244);
     border: solid 1px rgba(55, 55, 55, 0.615);
     border-radius: 3px;
     display: flex;
@@ -75,20 +77,44 @@ body {
 
 
 .buttons{
-    padding: 5px;
-    margin: 2px;
+    /* padding: 5px; */
+    /* margin: 2px; */
     width: 70px;
     height: 40px;
 }
 
 .operator-button {
     width: 48px;
+    border-radius: 5px;
 }
 
 
-/* button {
-    border-radius: 20px;
-} */
+button {
+    background-color: #444; 
+    color: rgb(251, 244, 244);
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.number-7{
+    border-radius: 5px 0px 0px 0px;
+}
+
+.number-9{
+    border-radius: 0px 5px 0px 0px;
+}
+
+.clear-button {
+    border-radius: 0px 0px 5px 0px;
+}
+
+.equals-button {
+    border-radius: 0px 0px 0px 5px ;
+
+}
 
 
 

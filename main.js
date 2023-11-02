@@ -53,11 +53,11 @@ const numbersButton = document.createElement('button');
 
 const clearButton = document.createElement('button');
 clearButton.textContent = 'C';
-clearButton.classList.add('buttons', 'number-buttons')
+clearButton.classList.add('buttons', 'number-buttons', 'clear-button')
 
 const equalsButton = document.createElement('button');
 equalsButton.textContent = '=';
-equalsButton.classList.add('buttons', 'number-buttons')
+equalsButton.classList.add('buttons', 'number-buttons', 'equals-button')
 
 numbersBar.append(clearButton);
 numbersBar.append(equalsButton);
@@ -119,3 +119,10 @@ equalsButton.addEventListener('click', () => {
     }
     })
 console.log('result:', result ,'firstNumber:',firstNumber,'secondNumber:', secondNumber)
+
+
+
+/* bugs: if you hit the operator button more than once it keeps doing calculations based on the first#
+and the updated second number . ideally it should only do the calculation once when you click an 
+operation button then wait for you to insert another number
+*/
