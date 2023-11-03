@@ -34,6 +34,7 @@ body {
 }
 
 .display{
+    font-family: 'Russo One', sans-serif;
     font-size: 30px;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -48,6 +49,7 @@ body {
     border-radius: 3px;
     display: flex;
     align-items: center;
+    justify-content: end;
 }
 .buttons-section {
     display: flex;
